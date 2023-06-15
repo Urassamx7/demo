@@ -1,0 +1,45 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Passion+One&display=swap');
+:root{
+--fonte1 : Arial, Helvetica, sans-serif; 
+--fonte2: 'Passion One', cursive;
+}
+
+body{
+    font-family: var(--fonte1);
+    background-color: rgb(122, 151, 69);
+    width: 100vw;
+    height: 100vh;
+}
+img {
+    width: 100vw;
+
+}
+h1{
+    font-family: var(--fonte2);
+    color: white;
+    text-align: center;
+    min-width: 200px;
+}
+footer{
+    font-family: var(--fonte2);
+    text-align: center;
+    background-color: green;
+    padding-left: 10px;
+    padding-top: 3px;
+    margin-top: -9px;
+}
+a#footer{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+a#footer:hover{
+    color: blueviolet;
+}
+
+
+
